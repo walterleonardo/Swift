@@ -21,7 +21,7 @@
 		3892D36A1C0BAB1B00EF29A5 /* sharingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3892D3691C0BAB1B00EF29A5 /* sharingData.swift */; };
 		3892D4871C11A42600EF29A5 /* TypoGraphica.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3892D4861C11A42600EF29A5 /* TypoGraphica.otf */; };
 		3892D4891C11A43C00EF29A5 /* pocket_calcuatlor_ot.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3892D4881C11A43C00EF29A5 /* pocket_calcuatlor_ot.otf */; };
-		38D4B6381C3E677C000DFB0A /* localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38D4B63A1C3E677C000DFB0A /* localizable.strings */; };
+		38D4B6381C3E677C000DFB0A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38D4B63A1C3E677C000DFB0A /* Localizable.strings */; };
 		38D4B63D1C3E770E000DFB0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D4B63F1C3E770E000DFB0A /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -63,13 +63,11 @@
 		3892D3691C0BAB1B00EF29A5 /* sharingData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sharingData.swift; sourceTree = "<group>"; };
 		3892D4861C11A42600EF29A5 /* TypoGraphica.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TypoGraphica.otf; sourceTree = "<group>"; };
 		3892D4881C11A43C00EF29A5 /* pocket_calcuatlor_ot.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pocket_calcuatlor_ot.otf; sourceTree = "<group>"; };
-		38D4B6391C3E677C000DFB0A /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/localizable.strings; sourceTree = "<group>"; };
-		38D4B63C1C3E6DD5000DFB0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/localizable.strings; sourceTree = "<group>"; };
+		38D4B63C1C3E6DD5000DFB0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		38D4B6431C3E7782000DFB0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		38D4B6451C3E7821000DFB0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
-		38D4B6471C3E782E000DFB0A /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
-		38D4B6491C3E7B61000DFB0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		38D4B64B1C3E7B63000DFB0A /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		38D4B6511C3E82AF000DFB0A /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		38D4B6521C3E82B0000DFB0A /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		38D4B6531C3E82B0000DFB0A /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,7 +133,7 @@
 				3892D4861C11A42600EF29A5 /* TypoGraphica.otf */,
 				386800411C15EE9000DD4D8D /* Fire_alarm.wav */,
 				3892D33F1C0BA1C400EF29A5 /* Info.plist */,
-				38D4B63A1C3E677C000DFB0A /* localizable.strings */,
+				38D4B63A1C3E677C000DFB0A /* Localizable.strings */,
 			);
 			path = wParkingMeter;
 			sourceTree = "<group>";
@@ -269,7 +267,7 @@
 				3892D33E1C0BA1C400EF29A5 /* LaunchScreen.storyboard in Resources */,
 				38D4B63D1C3E770E000DFB0A /* Main.storyboard in Resources */,
 				3892D4891C11A43C00EF29A5 /* pocket_calcuatlor_ot.otf in Resources */,
-				38D4B6381C3E677C000DFB0A /* localizable.strings in Resources */,
+				38D4B6381C3E677C000DFB0A /* Localizable.strings in Resources */,
 				3892D4871C11A42600EF29A5 /* TypoGraphica.otf in Resources */,
 				386800421C15EE9000DD4D8D /* Fire_alarm.wav in Resources */,
 				3892D33B1C0BA1C400EF29A5 /* Assets.xcassets in Resources */,
@@ -342,27 +340,25 @@
 			isa = PBXVariantGroup;
 			children = (
 				3892D33D1C0BA1C400EF29A5 /* Base */,
-				38D4B6491C3E7B61000DFB0A /* en */,
-				38D4B64B1C3E7B63000DFB0A /* es */,
+				38D4B6521C3E82B0000DFB0A /* es */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		38D4B63A1C3E677C000DFB0A /* localizable.strings */ = {
+		38D4B63A1C3E677C000DFB0A /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				38D4B6391C3E677C000DFB0A /* es */,
 				38D4B63C1C3E6DD5000DFB0A /* en */,
+				38D4B6531C3E82B0000DFB0A /* es */,
 			);
-			name = localizable.strings;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 		38D4B63F1C3E770E000DFB0A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				38D4B6431C3E7782000DFB0A /* Base */,
-				38D4B6451C3E7821000DFB0A /* en */,
-				38D4B6471C3E782E000DFB0A /* es */,
+				38D4B6511C3E82AF000DFB0A /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -406,7 +402,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -444,7 +440,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -456,7 +452,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = wParkingMeter/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = es.walii.wParkingMeterV2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -468,7 +464,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = wParkingMeter/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = es.walii.wParkingMeterV2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
